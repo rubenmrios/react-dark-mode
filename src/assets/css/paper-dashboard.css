@@ -3065,7 +3065,9 @@ License - nucleoapp.com/license/
       font-size: 12px;
       padding: 10px 8px;
       line-height: 30px;
-      opacity: .7; }
+      opacity: .7; display: flex;    align-items: center;}
+     
+     
     .sidebar .nav li .nav > li > a,
     .off-canvas-sidebar .nav li .nav > li > a {
       padding: 5px 8px; }
@@ -3628,6 +3630,7 @@ License - nucleoapp.com/license/
   transform: translate3d(0, 470px, 0) !important; }
 
 .card {
+  min-height: 190px !important;
   border-radius: 12px;
   box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
   background-color: #FFFFFF;
